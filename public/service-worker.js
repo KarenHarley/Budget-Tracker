@@ -4,8 +4,8 @@ const FILES_TO_CACHE = [
   "/styles.css",
   "/index.js",
   "/manifest.webmanifest",
-  "/assets/images/icons/icon-192x192.png",
-  "/assets/images/icons/icon-512x512.png",
+  "/icons/icon-192x192.png",
+  "/icons/icon-512x512.png",
 ]; //these are the files (the paths) that we want to cache (make sure paths work)
 
 const CACHE_NAME = "static-cache-v2";//the name of the cache 
