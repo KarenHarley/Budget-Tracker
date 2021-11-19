@@ -67,8 +67,15 @@ self.addEventListener("fetch", function(evt) {//intercepts all reqeuests with ap
   }
 
   evt.respondWith(
-    caches.match(evt.request).then(function(response) {
-      return response || fetch(evt.request);
+    fetch(evt.request).catch(function() {
+      return caches.match(evt.request).then(function(response) {
+        if (response) {
+          return response;
+        } else if (evt.request.headers.get("accept").includes("text/html")) {
+          // return the cached home page for all requests for html pages
+          return caches.match("/");
+        }
+      });
     })
   );
 });
