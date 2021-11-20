@@ -31,7 +31,7 @@ After entering into the website, you can do the following.
 ## Website Pictures
 <br/>
 
-### Below you will see this application
+### Below you will see what this application looks like
 
 <br/>
 
