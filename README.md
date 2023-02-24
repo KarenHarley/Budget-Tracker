@@ -4,7 +4,7 @@
 
 ## Description
 
-This application allows users to easily track their withdrawals and deposits with or without a data/internet connection so that the account balance is accurate when even when traveling without internet. Users can add and subtract funds and see the inpact of their withdrawals and desposits in a chart dictating the total over time.
+This application allows you to easily track your withdrawals and deposits with or without a data/internet connection so that the account balance is accurate when even when traveling without internet. Users can add and subtract funds and see the inpact of their withdrawals and desposits in a chart dictating the total over time.
 
 ## Table of Contents
 
